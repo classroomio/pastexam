@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "be:dev": "deno run --allow-all --env-file --watch api/index.ts"
+  },
+  "imports": {
+    "@hono/hono": "jsr:@hono/hono@^4.6.13",
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
